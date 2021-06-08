@@ -16,6 +16,14 @@ def home():
 def projects():
     return render_template('p1.html')
 
+@app.route('/p2')
+def projects2():
+    return render_template('p2.html')
+
+@app.route('/p3')
+def projects3():
+    return render_template('p3.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
