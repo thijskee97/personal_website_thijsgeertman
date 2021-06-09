@@ -28,6 +28,10 @@ def projects3():
 def projects4():
     return render_template('h4.html')
 
+@app.route('/p5')
+def projects5():
+    return render_template('p5.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
