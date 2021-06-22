@@ -33,5 +33,16 @@ def projects5():
     return render_template('p5.html')
 
 
+@app.route('/p6')
+def projects6():
+    return render_template('p6.html')
+
+@app.route('/p7')
+def projects7():
+    return render_template('p7.html')
+
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
