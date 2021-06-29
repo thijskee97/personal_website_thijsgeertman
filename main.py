@@ -41,6 +41,10 @@ def projects6():
 def projects7():
     return render_template('p7.html')
 
+@app.route('/p8')
+def projects8():
+    return render_template('p8.html')
+
 
 
 
